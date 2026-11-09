@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGSHOES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">REGSHOES</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#catalog" class="nav-link">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">REGSHOES</h2>
+                    <h3 class="subtitle">buat tampilanmu menarik dengan sepatu branded Puma</h3>
+                    <p class="description">selamat datang di toko sepatu kami, tempat sepatu branded
+                        puma ada disini. yuk segera belanja sebelum kehabisan!!
+                    </p>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="gambar/Puma.webp" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-section" id="catalog">
+            <div class="section-content">
+                <h2 class="catalog-title">Katalog Produk</h2>
+                <p class="catalog-subtitle">Pilih sepatu favoritmu di sini!</p>
+
+                <div class="catalog-grid" id="product-grid">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="contact-subtitle">Pilih cara paling nyaman untuk terhubung dengan kami</p>
+
+            <div class="contact-cta-grid">
+                <a href="https://wa.me/6281237595133" target="_blank" class="cta-card wa">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>081-237-595-133</p>
+                    <span>Chat Sekarang <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+
+                <a href="mailto:gedekrisna2410@gmail.com" class="cta-card email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>gedekrisna2410@gmail.com</p>
+                    <span>Kirim Email <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+
+                <a href="https://instagram.com/tuadiswraa" target="_blank" class="cta-card ig">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@tuadiswraa</p>
+                    <span>Follow Kami <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+
+            <div class="store-info">
+                <div class="info-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Alamat Toko</h3>
+                    <p>Jl.pulau bangka, NO.6A, Br Sawah PEDUNGAN DENPASAR BALI</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Jam Operasional</h3>
+                    <p>Senin - Sabtu: 09.00 - 21.00<br>Minggu: 10.00 - 18.00</p>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3>Pengiriman</h3>
+                    <p>Melayani seluruh Indonesia via JNE, J&T, SiCepat</p>
+                </div>
+            </div>
+
+            <div class="social-bar">
+                <div class="social-links">
+                    <a href="https://wa.me/6281237595133" target="_blank" title="WhatsApp"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/tuadiswraa" target="_blank" title="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:gedekrisna2410@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
